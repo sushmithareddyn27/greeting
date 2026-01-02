@@ -16,32 +16,32 @@ const familyMembers: FamilyMember[] = [
   {
     id: 'daddy',
     name: 'Daddy',
-    image: 'https://images.unsplash.com/photo-1610894830671-e560b2a3f165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXRoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjcyMTA4NjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'daddy.jpeg',
   },
   {
     id: 'mummy',
     name: 'Mummy',
-    image: 'https://images.unsplash.com/photo-1715331288074-0ad54cf3686d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3RoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjcyNTI0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'mummy.jpeg',
   },
   {
     id: 'puri',
     name: 'Puri',
-    image: 'https://images.unsplash.com/photo-1633077619704-89ab17af0e06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMG1hbiUyMGJyb3RoZXJ8ZW58MXx8fHwxNzY3MzI0NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'spoorthi2.jpeg',
   },
   {
     id: 'babai',
     name: 'Babai',
-    image: 'https://images.unsplash.com/photo-1604672840443-4f625b139ec5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHdvbWFuJTIwc2lzdGVyfGVufDF8fHx8MTc2NzMyNDQxOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'babai.jpeg',
   },
   {
     id: 'pinni',
     name: 'Pinni',
-    image: 'https://images.unsplash.com/photo-1661274766669-af8cce2a460b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdW50JTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY3MzI0NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'pinni.jpeg',
   },
   {
     id: 'ayshu',
     name: 'Ayshu',
-    image: 'https://images.unsplash.com/photo-1662690833162-c45cae0357fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGdpcmwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjczMjQ0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'ayshu.jpeg',
   },
 ];
 
@@ -164,7 +164,7 @@ export function FamilySelectionPage({ onSelectMember, onBack }: FamilySelectionP
         >
           <p className="text-sm text-gray-400 mb-2">Made with love by</p>
           <p className="text-lg font-semibold bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
-            Your Name
+            Sushmitha Reddy
           </p>
         </motion.div>
       </div>

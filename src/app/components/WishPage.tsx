@@ -16,8 +16,8 @@ const memberData: Record<string, {
   notes: Array<{ title: string; content: string }>;
 }> = {
   daddy: {
-    name: 'Daddy',
-    image: 'https://images.unsplash.com/photo-1610894830671-e560b2a3f165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXRoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjcyMTA4NjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    name: 'Daady',
+    image: 'daddy.jpeg',
     message: 'Dear Daddy, you are my strength and inspiration. Thank you for always being there and guiding me with your wisdom. May this year bring you health, happiness, and all the success you deserve.',
     wishes: [
       { icon: Heart, title: 'Health & Wellness', text: 'May you always stay healthy and strong, full of energy and vitality.' },
@@ -26,10 +26,10 @@ const memberData: Record<string, {
       { icon: Star, title: 'Peace & Prosperity', text: 'May peace and prosperity fill your life in abundance this year.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'Daddymemory1.jpeg',
+      'daddymemory2.jpeg',
+      'daddymemory3.jpeg',
+      'daddymemory4.jpeg',
     ],
     notes: [
       {
@@ -48,7 +48,7 @@ const memberData: Record<string, {
   },
   mummy: {
     name: 'Mummy',
-    image: 'https://images.unsplash.com/photo-1715331288074-0ad54cf3686d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3RoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjcyNTI0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'mummy.jpeg',
     message: 'Dear Mummy, you are my anchor and my safe haven. Your love and care have been my greatest blessings. May this year shower you with all the happiness and peace you deserve.',
     wishes: [
       { icon: Heart, title: 'Health & Wellness', text: 'May you be blessed with perfect health and endless energy throughout the year.' },
@@ -57,10 +57,10 @@ const memberData: Record<string, {
       { icon: TrendingUp, title: 'Growth & Success', text: 'May you achieve everything your heart desires and more this year.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'mummymemory1.jpeg',
+      'mummymemory2.jpeg',
+      'mummymemory3.jpeg',
+      'mummymemory4.jpeg',
     ],
     notes: [
       {
@@ -79,7 +79,7 @@ const memberData: Record<string, {
   },
   puri: {
     name: 'Puri',
-    image: 'https://images.unsplash.com/photo-1633077619704-89ab17af0e06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMG1hbiUyMGJyb3RoZXJ8ZW58MXx8fHwxNzY3MzI0NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'spoorthi2.jpeg',
     message: 'Hey Puri! You bring so much energy and joy into my life. May this new year bring you amazing opportunities and unforgettable adventures. Let\'s make 2026 legendary!',
     wishes: [
       { icon: TrendingUp, title: 'Career Success', text: 'May you achieve all your professional goals and reach new heights this year.' },
@@ -88,10 +88,10 @@ const memberData: Record<string, {
       { icon: Heart, title: 'Love & Friendship', text: 'May you be surrounded by amazing people who cherish and support you.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'smemory1.jpeg',
+      'smemory2.jpeg',
+      'smemory3.jpeg',
+      'smemory4.jpeg',
     ],
     notes: [
       {
@@ -106,7 +106,7 @@ const memberData: Record<string, {
   },
   babai: {
     name: 'Babai',
-    image: 'https://images.unsplash.com/photo-1604672840443-4f625b139ec5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHdvbWFuJTIwc2lzdGVyfGVufDF8fHx8MTc2NzMyNDQxOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'babai.jpeg',
     message: 'Dear Babai, your kindness and warmth light up every room. May 2026 be filled with beautiful moments, success in everything you do, and endless reasons to smile.',
     wishes: [
       { icon: Heart, title: 'Love & Happiness', text: 'May your heart be filled with love and your days with endless happiness.' },
@@ -115,10 +115,10 @@ const memberData: Record<string, {
       { icon: TrendingUp, title: 'Success & Growth', text: 'May success follow you in all your endeavors and help you grow beautifully.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'babaimemory1.jpeg',
+      'babaimemory2.jpeg',
+      'babaimemory4.jpeg',
+      'babai.jpeg',
     ],
     notes: [
       {
@@ -133,7 +133,7 @@ const memberData: Record<string, {
   },
   pinni: {
     name: 'Pinni',
-    image: 'https://images.unsplash.com/photo-1661274766669-af8cce2a460b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdW50JTIwcG9ydHJhaXR8ZW58MXx8fHwxNzY3MzI0NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'pinni.jpeg',
     message: 'Dear Pinni, your wisdom and love have always been a guiding light. May 2026 bring you health, prosperity, and countless moments of joy with your loved ones.',
     wishes: [
       { icon: Heart, title: 'Health & Vitality', text: 'May you enjoy excellent health and boundless energy throughout the year.' },
@@ -142,10 +142,10 @@ const memberData: Record<string, {
       { icon: TrendingUp, title: 'Prosperity & Abundance', text: 'May abundance flow into your life in all forms this year.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'pinnimemory1.jpeg',
+      'pinnimemory2.jpeg',
+      'pinnimemory3.jpeg',
+      'pinnimemory4.jpeg',
     ],
     notes: [
       {
@@ -160,7 +160,7 @@ const memberData: Record<string, {
   },
   ayshu: {
     name: 'Ayshu',
-    image: 'https://images.unsplash.com/photo-1662690833162-c45cae0357fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGdpcmwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjczMjQ0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'ayshu.jpeg',
     message: 'Sweet Ayshu! Your smile brightens every day and your spirit is contagious. May 2026 be filled with exciting discoveries, endless fun, and dreams coming true!',
     wishes: [
       { icon: Star, title: 'Dreams & Adventures', text: 'May all your dreams soar high and your adventures be extraordinary this year.' },
@@ -169,10 +169,10 @@ const memberData: Record<string, {
       { icon: TrendingUp, title: 'Growth & Learning', text: 'May you learn amazing new things and grow into the best version of yourself.' },
     ],
     memories: [
-      'https://images.unsplash.com/photo-1766808985890-e564439e39a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBjZWxlYnJhdGlvbiUyMG1lbW9yaWVzfGVufDF8fHx8MTc2NzMyMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1509134072290-fffe152264c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMG1vbWVudHMlMjBmcmllbmRzfGVufDF8fHx8MTc2NzMyNDQxOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1715178523440-3f7cf59e3b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMHRyYXZlbHxlbnwxfHx8fDE3NjczMjQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      'https://images.unsplash.com/photo-1739734963154-7a8b3c8e5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZWxlYnJhdGlvbiUyMHBhcnR5fGVufDF8fHx8MTc2NzIxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      'amemory1.jpeg',
+      'amemory2.jpeg',
+      'amemory3.jpeg',
+      'amemory4.jpeg',
     ],
     notes: [
       {
@@ -424,7 +424,7 @@ export function WishPage({ memberId, onBack }: WishPageProps) {
         >
           <p className="text-sm text-gray-400 mb-2">Made with love by</p>
           <p className="text-lg font-semibold bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
-            Your Name
+            Sushmitha
           </p>
         </motion.div>
       </div>

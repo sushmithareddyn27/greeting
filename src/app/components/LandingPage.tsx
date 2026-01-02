@@ -81,7 +81,7 @@ export function LandingPage({ onEnter }: LandingPageProps) {
               }}
             />
             <img
-              src="https://images.unsplash.com/photo-1638996030249-abc99a735463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlcnNvbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NzI1OTczNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="mypic.jpeg"
               alt="Your photo"
               className="relative w-48 h-48 rounded-full object-cover border-4 border-yellow-400/50 shadow-2xl"
             />
